@@ -1,0 +1,15 @@
+$colorRed: red;
+$colorBlue: blue;
+$colorGreen: green;
+$colorGray: gray;
+$colorBlack: black;
+$fontSizeSmall: 12px;
+$fontSizeMedium: 20px;
+$fontSizeBig: 28px;
+.box {
+    margin: 0 auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    border: 1px solid #666;
+}

@@ -1,0 +1,32 @@
+@import './../../Style/Base.scss';
+
+.App {
+  text-align: center;
+}
+
+.App_logo {
+  animation: App_logo_spin infinite 20s linear;
+  height: 80px;
+}
+
+.App_header {
+  background-color: $colorBlack;
+  height: 150px;
+  padding: 20px;
+  color: $colorRed;
+}
+
+.App_intro {
+  font-size: large;
+}
+
+@keyframes App_logo_spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+
+.App_block{
+  composes: box from '../../Style/Base.scss';
+  color: $colorGreen;
+}
