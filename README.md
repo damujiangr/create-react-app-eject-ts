@@ -10,7 +10,14 @@
 - Jest/Enzyme
 
 
+## 入口配置请查看[config/paths.js]的appIndexJs
+- the simplest demo : appIndexJs: resolveApp('src/index.tsx')
+- redux/todos demo : appIndexJs: resolveApp('src/index-redux.tsx')
 
+## 执行步骤
+node 环境V8.x
+- npm install [yarn可能会有问题]
+- npm start
 
 
 ## 剩余可拓展的功能
