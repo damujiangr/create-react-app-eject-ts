@@ -39,6 +39,8 @@ function getServedPath(appPackageJson) {
 }
 
 // config after eject: we're in ./config/
+// the simplest demo : appIndexJs: resolveApp('src/index.tsx')
+// redux/todos demo : appIndexJs: resolveApp('src/index-redux.tsx')
 module.exports = {
   dotenv: resolveApp('.env'),
   appBuild: resolveApp('build'),
