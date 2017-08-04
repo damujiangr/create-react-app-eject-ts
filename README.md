@@ -16,7 +16,7 @@
 
 ## 执行步骤
 node 环境V8.x
-- npm install [yarn可能会有问题]
+- npm install [yarn会有问题]
 - npm start
 
 

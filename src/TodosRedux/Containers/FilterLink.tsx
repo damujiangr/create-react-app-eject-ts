@@ -16,8 +16,8 @@ export type ConnectedDispatch = {
   onClick: () => void
 }
 
-const mapStateToProps = (state: Store.VisibilityFilter, ownProps: OwnProps): ConnectedState => ({
-  active: ownProps.filter === state.filter
+const mapStateToProps = (state: Store.All, ownProps: OwnProps): ConnectedState => ({
+    active: ownProps.filter === state.visibilityFilter
 })
 
 const mapDispatchToProps = (dispatch: Redux.Dispatch<Store.VisibilityFilter>, ownProps: OwnProps): ConnectedDispatch =>

@@ -7,6 +7,12 @@ import reducer from './TodosRedux/Reducers'
 
 const store = createStore(reducer)
 
+// 查看state的变化
+console.log(store.getState())
+store.subscribe(() =>
+    console.log(store.getState())
+)
+
 render(
   <Provider store={store}>
     <App />
