@@ -5,8 +5,8 @@
 ## 需要完成的功能
 - [done] npm run eject
 - [done]sass/css-modules
-- redux/react-redux/[@types/react-redux]
-- TSLint
+- [done]redux/react-redux/[@types/react-redux]
+- [done]TSLint
 - Jest/Enzyme
 
 
